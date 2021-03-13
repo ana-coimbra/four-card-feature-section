@@ -122,3 +122,64 @@ h2 {
 .attribution a:hover {
   color: var(--darkblue);
 }
+
+@media only screen and (min-width: 320px) and (max-width: 480px) {
+  body {
+    width: 320px;
+    margin: 4rem auto;
+  }
+
+  h2 {
+    font-size: 20px;
+  }
+
+  /* Top Section */
+
+  .top-container {
+    width: 80%;
+  }
+
+  .description {
+    font-size: 13px;
+  }
+
+  /* Bottom Section Grids*/
+
+  .section-container {
+    grid-template-columns: none;
+    margin: none;
+  }
+
+  .middle-section {
+    grid-template-rows: none;
+    margin: none;
+  }
+
+  /* Section Colors */
+
+  .cyan {
+    margin-bottom: 1.5rem;
+  }
+
+  .blue {
+    margin-top: 1.5rem;
+  }
+
+  /* Sections */
+
+  .section {
+    border-radius: 5px;
+    padding: 1.5rem;
+    width: 16.5rem;
+    height: 10.5rem;
+  }
+
+  .section p {
+    margin-top: 5px;
+  }
+
+  .section img {
+    top: 1rem;
+    left: 12rem;
+  }
+} ;
