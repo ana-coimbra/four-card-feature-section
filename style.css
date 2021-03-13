@@ -1,3 +1,56 @@
+:root {
+  /* Primary */
+  --red: hsl(0, 78%, 62%);
+  --cyan: hsl(180, 62%, 55%);
+  --orange: hsl(34, 97%, 64%);
+  --blue: hsl(212, 86%, 64%);
+  /* Neutral */
+  --darkblue: hsl(234, 12%, 34%);
+  --greyblue: hsl(229, 6%, 66%);
+  --lighgrey: hsl(0, 0%, 98%);
+}
+
+body {
+  color: var(--darkblue);
+  font-family: "Poppins", sans-serif;
+  font-weight: 200;
+  font-size: 15px;
+  width: 1140px;
+  margin: 4rem auto;
+}
+
+h1 {
+  font-weight: 200;
+  margin: 0;
+  padding: 0;
+}
+
+h2 {
+  font-size: 30px;
+  font-weight: 600;
+  margin: 0 0 10px;
+  padding: 0;
+}
+
+/* Top Section */
+
+.top-container {
+  text-align: center;
+  margin: 0 auto;
+  width: 45%;
+}
+
+.description {
+  color: var(--greyblue);
+}
+
+/* Bottom Section*/
+
+.section-container {
+  margin: 6rem auto;
+  column-count: 4;
+}
+
 .attribution {
   font-size: 11px;
   text-align: center;
